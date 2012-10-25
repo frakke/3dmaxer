@@ -1,0 +1,20 @@
+name = JLN Base Theme
+description = Base theme for responsive themes.
+core = 7.x
+
+; Stylesheets
+stylesheets[all][] = styles/css/reset.css
+stylesheets[all][] = styles/css/base.css
+
+scripts[] = scripts/theme.js
+
+; Remove core stylesheets
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = system.messages.css
+stylesheets[all][] = system.theme.css
+stylesheets[all][] = node.css
+stylesheets[all][] = search.css
+stylesheets[all][] = user.css
+
+; Plugins
+plugins[panels][layouts] = plugins/layouts
