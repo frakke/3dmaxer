@@ -3,3 +3,4 @@ files/
 /modules/contrib
 /themes/contrib
 /libraries/
+*.sql
